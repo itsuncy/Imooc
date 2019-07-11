@@ -9,7 +9,8 @@ public class DataProviderTest {
 
     @Test(dataProvider = "data")
     public void testDataProvider(String name, int age) {
-        System.out.println("name = " + name + "; " + "age =" + age);
+
+        System.out.println("name = " + name + "   ;age = " + age);
     }
 
     @DataProvider(name = "data")
@@ -30,6 +31,7 @@ public class DataProviderTest {
 
     @Test(dataProvider = "methodData")
     public void test2(String name, int age) {
+
         System.out.println("test222方法 name=" + name + ";age=" + age);
     }
 
