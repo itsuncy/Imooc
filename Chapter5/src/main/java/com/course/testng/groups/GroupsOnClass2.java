@@ -6,7 +6,6 @@ import org.testng.annotations.Test;
 public class GroupsOnClass2 {
 
     public void stu1() {
-
         System.out.println("GroupsOnClass222中的stu1运行");
     }
 
