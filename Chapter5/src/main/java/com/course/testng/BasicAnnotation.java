@@ -4,7 +4,7 @@ import org.testng.annotations.*;
 
 public class BasicAnnotation {
 
-    //最基本的注解，用来把方法标记为测试的一部分
+    //Test注解，最基本的注解，用来把方法标记为测试的一部分
     @Test
     public void testCase1() {
         System.out.println("Test这是测试用例1");
@@ -35,7 +35,7 @@ public class BasicAnnotation {
         System.out.println("AfterClass这是在类运行之前运行的方法");
     }
 
-    @BeforeSuite    //
+    @BeforeSuite
     public void beforeSuite() {
         System.out.println("beforeSuite测试套件");
     }
